@@ -30,7 +30,7 @@ from the new XML and updated. After the update, the server returns a successful 
 4. Error Management: If an error occurs during the update, the
 application returns an error response with the message "Error: {e}".
 
-Visit the website for show the xml data: http://127.0.0.1:5000/warehouse/status
+Run the script and visit the website for show data: http://127.0.0.1:5000/warehouse/status
 
 ## Output
 ![responses](https://github.com/user-attachments/assets/43f60ee9-e85c-4923-82ad-45f1550a8fd3)
