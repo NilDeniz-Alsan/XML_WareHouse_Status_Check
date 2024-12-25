@@ -30,8 +30,7 @@ from the new XML and updated. After the update, the server returns a successful 
 4. Error Management: If an error occurs during the update, the
 application returns an error response with the message "Error: {e}".
 ## Output
-
-![Responses](file:///D:Yeni%20klas%C3%B6rEkran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-12-24%20201126.png)
+![responses](https://github.com/user-attachments/assets/43f60ee9-e85c-4923-82ad-45f1550a8fd3)
 
 ## http://127.0.0.1:5000/warehouse/status
 
