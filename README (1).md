@@ -20,17 +20,7 @@ root URL (root), it returns a welcome message:
 “Merhaba! Depo durumu için /warehouse/status GET ve POST metodlarını kullanabilirsiniz.”
 
 2. GET Endpoint: /warehouse/status: When the user makes a GET request to this endpoint, warehouse_status data is returned in XML
-format:
-<?xml version="1.0" encoding="UTF-8"
-?><warehouse><statusDate>2024-12-23</statusDate><location><id>2
-</id><name>Secondary
-Warehouse</name><items><item><sku>54321</sku><name>Laptop</
-name><quantity>25</quantity><status>In
-Stock</status></item><item><sku>98765</sku><name>Keyboard</na
-me><quantity>100</quantity><status>In
-Stock</status></item></items></location></warehouse>
-
-dicttoxml library converts Python dictionary to XML.XML data is returned in application/xml format.
+format. dicttoxml library converts Python dictionary to XML.XML data is returned in application/xml format.
 
 3. POST Endpoint: /warehouse/status:The user can send the warehouse status in XML format by making a POST request to this
 endpoint. The sent XML updates the warehouse_status variable.The data
